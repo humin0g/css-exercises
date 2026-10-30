@@ -1,1 +1,28 @@
 /* Add CSS Styling */
+.para-text {
+    background-color: #FFCCCB;
+}
+
+.para-text.one {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para.text.two {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para-text.two.cool {
+    font-size: 24px;
+}
+
+#div_one {
+    font-size: 36px;
+    color: blue;
+
+}
+
+#div_two {
+    background-color: #90EE90;
+    font-size: 24px;
+    font-weight: bold;
+}
