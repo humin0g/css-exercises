@@ -24,3 +24,14 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Work */
+.title {
+  display: flex;
+  justify-content: center
+}
+
+.plants {
+  justify-content: center;
+  flex-flow: row wrap;
+}
