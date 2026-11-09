@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -34,4 +36,51 @@ input {
 a {
   text-decoration: none;
   color: black;
+}
+
+/* Header work */
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  /* gap: 10px; */
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.header.left-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.header.right-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: flex-end;
+  gap: 10px;
+}
+
+/* Footer work */
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5px;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+
+.footer.left-links {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.footer.right-links {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-content: flex-end;
 }
