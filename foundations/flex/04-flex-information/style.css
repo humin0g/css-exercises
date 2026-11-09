@@ -38,12 +38,16 @@ div {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  padding: 0 52px 0 52px;
+  flex: 1 1 auto;
 }
 
-.plants {
+.plants, .text {
   display: flex;
   justify-content: center;
   flex-flow: row nowrap;
   align-content: center;
+  margin: 0 52px 0 52px;
+  align-items: center;
+  text-align: center;
 }
+
