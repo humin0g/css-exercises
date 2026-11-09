@@ -84,3 +84,20 @@ a {
   justify-content: flex-end;
   align-content: flex-end;
 }
+
+/* Main content */
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center; 
+  align-items: center;
+  /* flex: 1 1 auto; */
+  flex-shrink: 0;
+  margin: auto;
+} 
+
+button {
+  margin: 10px 0 0 0;
+  padding: 10px;
+  border-radius: 5px;
+}
