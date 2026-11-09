@@ -28,10 +28,22 @@ img {
 /* Work */
 .title {
   display: flex;
-  justify-content: center
+  justify-content: center;
+  margin: 0 0 32px 0;
+}
+
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0 52px 0 52px;
 }
 
 .plants {
+  display: flex;
   justify-content: center;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
+  align-content: center;
 }
